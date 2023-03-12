@@ -6,7 +6,7 @@ const LandingInfo = ({ setIsStudent }) => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className=" transition-all duration-200 max-w-md lg:max-w-screen-2xl">
-          <h1 className="mb-5 text-5xl font-bold">
+          <h1 className="mb-5 text-5xl font-bold lg:text-6xl">
             Welcome to Bridging the Gap
           </h1>
           <p className="mb-5 text-lg lg:mb-7">

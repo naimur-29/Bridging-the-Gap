@@ -34,7 +34,13 @@ const NavbarEnd = ({ isDarkModeEnabled, setIsDarkModeEnabled }) => {
               <label className="swap swap-rotate">
                 <input
                   type="checkbox"
-                  onClick={() => setIsDarkModeEnabled(!isDarkModeEnabled)}
+                  onClick={() => {
+                    setIsDarkModeEnabled(!isDarkModeEnabled);
+                    window.localStorage.setItem(
+                      "dark-mode",
+                      !isDarkModeEnabled
+                    );
+                  }}
                 />
                 <svg
                   className="swap-on fill-current w-7 h-7"

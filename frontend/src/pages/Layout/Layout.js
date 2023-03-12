@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 
 import "./Layout.css";
@@ -8,6 +8,10 @@ import Navbar from "../Navbar/Navbar";
 import HomeNavbar from "../HomeNavbar/HomeNavbar";
 
 const Layout = ({ isLoggedIn, isDarkModeEnabled, setIsDarkModeEnabled }) => {
+  useEffect(() => {
+    setIsDarkModeEnabled(window.localStorage?.getItem("dark-mode") === "true");
+  }, [setIsDarkModeEnabled]);
+
   return (
     <main
       className="layout relative min-h-screen"
