@@ -1,17 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
-const NavbarCenter = () => {
-  const navigate = useNavigate();
-
+const NavbarCenter = ({ navbarTitle }) => {
   return (
     <div className="navbar-center select-none">
-      <button
-        className="normal-case text-2xl"
-        onClick={() => navigate("/dashboard")}
-      >
-        Dashboard
-      </button>
+      <p className="normal-case text-2xl">{navbarTitle}</p>
     </div>
   );
 };

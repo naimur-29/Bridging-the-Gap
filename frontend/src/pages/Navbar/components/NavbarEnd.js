@@ -1,15 +1,19 @@
 import React from "react";
 
+// import react icons:
+import { BsPersonBoundingBox } from "react-icons/bs";
+
 const NavbarEnd = ({ isDarkModeEnabled, setIsDarkModeEnabled }) => {
   return (
     <div className="navbar-end">
       <div className="dropdown dropdown-end">
-        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-          <div className="w-10 rounded-full">
-            <img
+        <label tabIndex={0} className="btn btn-ghost btn-circle">
+          <div className="center w-10 rounded-full">
+            {/* <img
               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F87%2F94%2F0d%2F87940d314c362d58fc61eea28dabcf02.jpg&f=1&nofb=1&ipt=ae4e04c3639a45bdd1386868863615c2fb94db490ec43c35693526a656549d7f&ipo=images"
               alt="profile"
-            />
+            /> */}
+            <BsPersonBoundingBox className="icon" />
           </div>
         </label>
         <ul
@@ -17,15 +21,7 @@ const NavbarEnd = ({ isDarkModeEnabled, setIsDarkModeEnabled }) => {
           className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
         >
           <li>
-            <a href="/" className="justify-between">
-              Profile
-            </a>
-          </li>
-          <li>
-            <a href="/">Settings</a>
-          </li>
-          <li>
-            <a href="/">Logout</a>
+            <button>Logout</button>
           </li>
 
           <li>

@@ -7,6 +7,11 @@ const ClassSchema = new mongoose.Schema({
     require: true,
   },
 
+  courseCode: {
+    type: String,
+    require: true,
+  },
+
   faculty: {
     type: String,
     require: true,

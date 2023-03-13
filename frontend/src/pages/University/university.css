@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.main-container .cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 25px;
+}
+
+@media (max-width: 1248px) {
+  .main-container .cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 840px) {
+  .main-container .cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .main-container .cards-container .card {
+    max-width: 92vw;
+  }
+}

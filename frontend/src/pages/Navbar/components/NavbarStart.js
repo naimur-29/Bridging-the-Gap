@@ -28,13 +28,12 @@ const NavbarStart = () => {
           className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
         >
           <li>
-            <button onClick={() => navigate("/")}>Homepage</button>
+            <button onClick={() => navigate("/dashboard/university")}>
+              Dashboard
+            </button>
           </li>
           <li>
-            <a href="/">Portfolio</a>
-          </li>
-          <li>
-            <a href="/">About</a>
+            <button onClick={() => navigate(-1)}>Go Back</button>
           </li>
         </ul>
       </div>

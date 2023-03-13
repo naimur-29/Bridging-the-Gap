@@ -7,7 +7,12 @@ import "./Layout.css";
 import Navbar from "../Navbar/Navbar";
 import HomeNavbar from "../HomeNavbar/HomeNavbar";
 
-const Layout = ({ isLoggedIn, isDarkModeEnabled, setIsDarkModeEnabled }) => {
+const Layout = ({
+  isLoggedIn,
+  isDarkModeEnabled,
+  setIsDarkModeEnabled,
+  navbarTitle,
+}) => {
   useEffect(() => {
     setIsDarkModeEnabled(window.localStorage?.getItem("dark-mode") === "true");
   }, [setIsDarkModeEnabled]);
@@ -21,10 +26,12 @@ const Layout = ({ isLoggedIn, isDarkModeEnabled, setIsDarkModeEnabled }) => {
         <Navbar
           isDarkModeEnabled={isDarkModeEnabled}
           setIsDarkModeEnabled={setIsDarkModeEnabled}
+          navbarTitle={navbarTitle}
         />
       ) : (
         <HomeNavbar />
       )}
+
       <Outlet />
     </main>
   );
