@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import mainBg from "../../../assets/images/main-bg.jpg";
 
 const Course = ({
+  isStudent,
   isFaculty,
   c,
   courseCode,
@@ -22,26 +23,43 @@ const Course = ({
         <img src={mainBg} alt="background" className="w-full" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-4xl">{isFaculty ? courseCode : name}</h2>
+        <h2 className="card-title text-4xl">
+          {isFaculty || isStudent ? courseCode : name}
+        </h2>
         <p>
-          {faculty ? faculty : name} <br />{" "}
-          {"Total Students: " +
-            (numberOfStudents < 10 ? "0" : "") +
-            numberOfStudents}
+          {isStudent ? name : ""} <br />
+          {faculty ? faculty : name} <br />
+          {!isStudent
+            ? "Total Students: " +
+              (numberOfStudents < 10 ? "0" : "") +
+              numberOfStudents
+            : ""}
         </p>
 
-        <div className="card-actions justify-end">
-          <button
-            className="btn btn-primary cursor-pointer"
-            onClick={() => {
-              setCurrentStats(c.stats);
-              setNavbarTitle(courseCode + " > " + name);
-              navigate("class/stats");
-            }}
-          >
-            Statistics
-          </button>
-        </div>
+        {!isStudent ? (
+          <div className="card-actions justify-end">
+            <button
+              className="btn btn-primary cursor-pointer"
+              onClick={() => {
+                setCurrentStats(c.stats);
+                setNavbarTitle(courseCode + " > " + name);
+                navigate("class/stats");
+              }}
+            >
+              Statistics
+            </button>
+          </div>
+        ) : (
+          <div className="card-actions justify-end">
+            {/* The button to open modal */}
+            <button
+              className="btn btn-primary cursor-pointer"
+              onClick={() => navigate("feedback")}
+            >
+              Give Feedback
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

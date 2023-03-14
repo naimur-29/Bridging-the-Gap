@@ -4,6 +4,7 @@ export const facultyData = {
     {
       name: "Section B",
       courseCode: "CSC 131",
+      faculty: "Md. Rayhan Subhan",
       students: [
         {
           name: "Student Name",

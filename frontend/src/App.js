@@ -9,6 +9,7 @@ import CoursePage from "./pages/CoursePage/CoursePage";
 import StatsPage from "./pages/StatsPage/StatsPage";
 import Faculty from "./pages/Faculty/Faculty";
 import Student from "./pages/Student/Student";
+import Feedback from "./pages/Feedback/Feedback";
 
 const App = () => {
   const [isDarkModeEnabled, setIsDarkModeEnabled] = useState(true);
@@ -100,7 +101,19 @@ const App = () => {
             element={<StatsPage stats={currentStats} />}
           />
 
-          <Route path="student" element={<Student />} />
+          <Route
+            path="student"
+            element={
+              <Student
+                setNavbarTitle={setNavbarTitle}
+                setCurrentStats={setCurrentStats}
+              />
+            }
+          />
+          <Route
+            path="student/feedback"
+            element={<Feedback setNavbarTitle={setNavbarTitle} />}
+          />
         </Route>
 
         <Route path="*" element={<h1>Page not found!</h1>} />
