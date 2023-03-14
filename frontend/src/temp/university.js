@@ -9,21 +9,26 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
+        students: new Array(Math.round(Math.random() * 25 + 25)),
         stats: {
-          "Students facing problems to understand accent": "50%",
-          "Students prefer to write down on the board": "37%",
-          "Students are requesting to solve the practice problems more often":
-            "39%",
-          "Students want to get depth knowledge in ML": "20%",
-          "Students couldn't find the course materials in University Library":
-            "10%",
-          "Students suggest faculty vary their teaching methods": "5%",
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
         },
       },
 
@@ -33,13 +38,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -48,13 +67,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -63,13 +96,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -78,13 +125,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -93,16 +154,49 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
     ],
-    stats: {},
+    stats: {
+      "Students facing problems to understand accent": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students prefer to write down on the board": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students are requesting to solve the practice problems more often": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students want to get depth knowledge in ML": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students couldn't find the course materials in University Library": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students suggest faculty vary their teaching methods": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+    },
   },
 
   {
@@ -115,16 +209,26 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
+        students: new Array(Math.round(Math.random() * 25 + 25)),
         stats: {
-          "Can't comprehend what the faculty's saying!": "60.00%",
-          "Don't understand the topics in English!": "20.00%",
-          "Lessons are fast-paced!": "20.00%",
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
         },
       },
 
@@ -134,13 +238,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -149,13 +267,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -164,13 +296,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -179,13 +325,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -194,16 +354,49 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
     ],
-    stats: {},
+    stats: {
+      "Students facing problems to understand accent": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students prefer to write down on the board": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students are requesting to solve the practice problems more often": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students want to get depth knowledge in ML": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students couldn't find the course materials in University Library": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students suggest faculty vary their teaching methods": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+    },
   },
   {
     name: "Programming in C++",
@@ -215,16 +408,26 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
+        students: new Array(Math.round(Math.random() * 25 + 25)),
         stats: {
-          "Can't comprehend what the faculty's saying!": "60.00%",
-          "Don't understand the topics in English!": "20.00%",
-          "Lessons are fast-paced!": "20.00%",
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
         },
       },
 
@@ -234,13 +437,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -249,13 +466,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -264,13 +495,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -279,13 +524,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -294,16 +553,49 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
     ],
-    stats: {},
+    stats: {
+      "Students facing problems to understand accent": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students prefer to write down on the board": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students are requesting to solve the practice problems more often": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students want to get depth knowledge in ML": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students couldn't find the course materials in University Library": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students suggest faculty vary their teaching methods": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+    },
   },
   {
     name: "Programming in C++ Lab",
@@ -315,16 +607,26 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
+        students: new Array(Math.round(Math.random() * 25 + 25)),
         stats: {
-          "Can't comprehend what the faculty's saying!": "60.00%",
-          "Don't understand the topics in English!": "20.00%",
-          "Lessons are fast-paced!": "20.00%",
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
         },
       },
 
@@ -334,13 +636,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -349,13 +665,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -364,13 +694,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -379,13 +723,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -394,16 +752,49 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
     ],
-    stats: {},
+    stats: {
+      "Students facing problems to understand accent": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students prefer to write down on the board": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students are requesting to solve the practice problems more often": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students want to get depth knowledge in ML": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students couldn't find the course materials in University Library": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students suggest faculty vary their teaching methods": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+    },
   },
   {
     name: "Fundamentals of Electronics & Digital Systems",
@@ -415,16 +806,26 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
+        students: new Array(Math.round(Math.random() * 25 + 25)),
         stats: {
-          "Can't comprehend what the faculty's saying!": "60.00%",
-          "Don't understand the topics in English!": "20.00%",
-          "Lessons are fast-paced!": "20.00%",
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
         },
       },
 
@@ -434,13 +835,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -449,13 +864,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -464,13 +893,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -479,13 +922,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -494,16 +951,49 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
     ],
-    stats: {},
+    stats: {
+      "Students facing problems to understand accent": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students prefer to write down on the board": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students are requesting to solve the practice problems more often": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students want to get depth knowledge in ML": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students couldn't find the course materials in University Library": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students suggest faculty vary their teaching methods": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+    },
   },
   {
     name: "Fundamentals of Electronics & Digital Systems Lab",
@@ -515,16 +1005,26 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
+        students: new Array(Math.round(Math.random() * 25 + 25)),
         stats: {
-          "Can't comprehend what the faculty's saying!": "60.00%",
-          "Don't understand the topics in English!": "20.00%",
-          "Lessons are fast-paced!": "20.00%",
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
         },
       },
 
@@ -534,13 +1034,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -549,13 +1063,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -564,13 +1092,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -579,13 +1121,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -594,16 +1150,49 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
     ],
-    stats: {},
+    stats: {
+      "Students facing problems to understand accent": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students prefer to write down on the board": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students are requesting to solve the practice problems more often": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students want to get depth knowledge in ML": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students couldn't find the course materials in University Library": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students suggest faculty vary their teaching methods": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+    },
   },
   {
     name: "Data Structure & Algorithms",
@@ -615,16 +1204,26 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
+        students: new Array(Math.round(Math.random() * 25 + 25)),
         stats: {
-          "Can't comprehend what the faculty's saying!": "60.00%",
-          "Don't understand the topics in English!": "20.00%",
-          "Lessons are fast-paced!": "20.00%",
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
         },
       },
 
@@ -634,13 +1233,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -649,13 +1262,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -664,13 +1291,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -679,13 +1320,27 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
 
       {
@@ -694,15 +1349,48 @@ export const courses = [
           name: "Faculty Name",
           context: "Faculty",
         },
-        students: [
-          {
-            name: "Student Name",
-            context: "Student",
-          },
-        ],
-        stats: {},
+        students: new Array(Math.round(Math.random() * 25 + 25)),
+        stats: {
+          "Students facing problems to understand accent": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students prefer to write down on the board": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students are requesting to solve the practice problems more often": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students want to get depth knowledge in ML": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students couldn't find the course materials in University Library": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+          "Students suggest faculty vary their teaching methods": `${
+            Math.round(Math.random() * 75) + 5
+          }%`,
+        },
       },
     ],
-    stats: {},
+    stats: {
+      "Students facing problems to understand accent": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students prefer to write down on the board": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students are requesting to solve the practice problems more often": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students want to get depth knowledge in ML": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students couldn't find the course materials in University Library": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+      "Students suggest faculty vary their teaching methods": `${
+        Math.round(Math.random() * 75) + 5
+      }%`,
+    },
   },
 ];

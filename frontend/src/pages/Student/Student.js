@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import ClassCard from "../CoursePage/components/ClassCard";
 
 // import temporary data:
-import { facultyData } from "../../temp/faculty";
+import { studentData } from "../../temp/student";
 
 const Student = ({ setNavbarTitle, setCurrentStats }) => {
   useEffect(() => {
@@ -14,14 +14,13 @@ const Student = ({ setNavbarTitle, setCurrentStats }) => {
   return (
     <section className="main-container">
       <div className="cards-container">
-        {facultyData.classes.map((c) => (
+        {studentData.classes.map((c) => (
           <ClassCard
             isStudent={true}
             c={c}
             name={c.name}
             faculty={c.faculty}
             courseCode={c.courseCode}
-            numberOfStudents={c.students.length}
             setNavbarTitle={setNavbarTitle}
             setCurrentStats={setCurrentStats}
           />

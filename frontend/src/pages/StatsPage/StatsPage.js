@@ -7,7 +7,7 @@ const StatsPage = ({ stats }) => {
         <table className="table w-[90vw]">
           <thead>
             <tr>
-              <th className="text-lg">Rank</th>
+              <th className="text-lg">No</th>
               <th className="text-lg">Label</th>
               <th className="text-lg">Percentage</th>
             </tr>

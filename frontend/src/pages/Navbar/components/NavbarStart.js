@@ -28,7 +28,12 @@ const NavbarStart = () => {
           className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
         >
           <li>
-            <button onClick={() => navigate("/dashboard/university")}>
+            <button
+              onClick={() => {
+                let vId = window.localStorage.getItem("visitorIdentity");
+                navigate(`/dashboard/${vId}`);
+              }}
+            >
               Dashboard
             </button>
           </li>
