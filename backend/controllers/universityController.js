@@ -30,6 +30,7 @@ module.exports.createUniversity = async (req, res) => {
       .catch((err) => {
         if (err) {
           console.error(err);
+          res.send({ message: "Email not available!" });
         }
       });
   } else {
