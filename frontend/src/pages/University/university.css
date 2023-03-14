@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 100px 40px 40px 40px;
 }
 
 .main-container .cards-container {

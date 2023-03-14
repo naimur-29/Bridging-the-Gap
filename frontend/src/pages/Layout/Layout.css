@@ -1,6 +1,6 @@
 .layout::before {
   content: "";
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -10,4 +10,5 @@
   background-size: cover;
   background-position: center;
   opacity: 0.2;
+  filter: blur(3px);
 }

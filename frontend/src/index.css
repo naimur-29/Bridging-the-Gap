@@ -5,3 +5,7 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
+
+body {
+  scroll-behavior: smooth;
+}

@@ -7,12 +7,7 @@ const HomeNavbar = () => {
   return (
     <div className="navbar bg-base-100 fixed z-[999]">
       <div className="navbar-start">
-        <button
-          className="btn btn-ghost normal-case text-xl"
-          onClick={() => navigate("/")}
-        >
-          BGap
-        </button>
+        <p className="normal-case text-xl font-bold ml-3">BGap</p>
       </div>
 
       <div className="navbar-end">

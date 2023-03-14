@@ -9,7 +9,7 @@ const LandingInfo = ({ setIsStudent }) => {
           <h1 className="mb-5 text-5xl font-bold lg:text-6xl">
             Welcome to Bridging the Gap
           </h1>
-          <p className="mb-5 text-lg lg:mb-7">
+          <p className="mb-5 text-xl lg:mb-10 mt-[-10px]">
             Sign up today and start building stronger connections with your
             students!
           </p>

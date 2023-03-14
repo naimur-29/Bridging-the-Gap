@@ -9,7 +9,7 @@ import NavbarEnd from "./components/NavbarEnd";
 
 const Navbar = ({ isDarkModeEnabled, setIsDarkModeEnabled, navbarTitle }) => {
   return (
-    <section className="navbar bg-base-100 relative">
+    <section className="navbar bg-base-100 fixed z-50">
       <NavbarStart />
       <NavbarCenter navbarTitle={navbarTitle} />
       <NavbarEnd
