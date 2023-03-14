@@ -9,13 +9,14 @@ import CoursePage from "./pages/CoursePage/CoursePage";
 import StatsPage from "./pages/StatsPage/StatsPage";
 import Faculty from "./pages/Faculty/Faculty";
 import Student from "./pages/Student/Student";
-import Register from "./pages/Register/Register";
 
 const App = () => {
   const [isDarkModeEnabled, setIsDarkModeEnabled] = useState(true);
   const [navbarTitle, setNavbarTitle] = useState("Dashboard");
   const [currentCourse, setCurrentCourse] = useState({});
   const [currentStats, setCurrentStats] = useState({});
+  const [visitorIdentity, setVisitorIdentity] = useState("");
+  const [isRegistered, setIsRegistered] = useState(true);
 
   return (
     <BrowserRouter>
@@ -27,11 +28,22 @@ const App = () => {
               isLoggedIn={false}
               isDarkModeEnabled={isDarkModeEnabled}
               setIsDarkModeEnabled={setIsDarkModeEnabled}
+              setVisitorIdentity={setVisitorIdentity}
+              setIsRegistered={setIsRegistered}
             />
           }
         >
-          <Route path="/" element={<Home />} />
-          <Route path="/register" element={<Register />} />
+          <Route
+            path="/"
+            element={
+              <Home
+                visitorIdentity={visitorIdentity}
+                setVisitorIdentity={setVisitorIdentity}
+                isRegistered={isRegistered}
+                setIsRegistered={setIsRegistered}
+              />
+            }
+          />
         </Route>
 
         <Route

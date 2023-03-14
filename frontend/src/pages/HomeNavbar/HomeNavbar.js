@@ -1,9 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
-const HomeNavbar = () => {
-  const navigate = useNavigate();
-
+const HomeNavbar = ({ setVisitorIdentity, setIsRegistered }) => {
   return (
     <div className="navbar bg-base-100 fixed z-[999]">
       <div className="navbar-start">
@@ -11,7 +8,13 @@ const HomeNavbar = () => {
       </div>
 
       <div className="navbar-end">
-        <button className="btn" onClick={() => navigate("register")}>
+        <button
+          className="btn"
+          onClick={() => {
+            setVisitorIdentity("university");
+            setIsRegistered(false);
+          }}
+        >
           Get started
         </button>
       </div>

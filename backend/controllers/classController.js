@@ -1,19 +1,19 @@
 const ClassModel = require("../models/classModel");
-const CourseModel = require("../models/courseModel");
+const UniversityModel = require("../models/universityModel");
 
 // create new class:
 module.exports.createClass = async (req, res) => {
-  const { name, courseCode, faculty, _cid } = req.body;
+  const { name, courseCode, faculty, _uid, _cid } = req.body;
   let isCourseValid = false;
-  let classes = [];
+  let courses = [];
 
   // find university:
-  if (_cid && name && courseCode) {
-    await CourseModel.findById(_cid)
+  if (_cid && _uid && name && courseCode) {
+    await UniversityModel.findById(_uid)
       .then((data) => {
         if (data) {
           isCourseValid = true;
-          classes = data.classes;
+          courses = data.courses;
         }
       })
       .catch((err) => {
@@ -26,12 +26,18 @@ module.exports.createClass = async (req, res) => {
   if (isCourseValid) {
     ClassModel.create({ name, courseCode, faculty })
       .then((data) => {
-        classes = [...classes, data?._id];
-        const pkg = { classes };
+        courses.forEach((c) => {
+          console.log(c._id, `new ObjectId(${_cid})`);
+          if (String(c._id) === `new ObjectId(${_cid})`) {
+            c.classes = [...c.classes, data];
+          }
+        });
+        console.log(courses);
+        const pkg = { courses };
 
         if (data) {
           // update university:
-          CourseModel.findByIdAndUpdate(_cid, pkg)
+          UniversityModel.findByIdAndUpdate(_uid, pkg)
             .then(() => {
               res.send(data);
             })

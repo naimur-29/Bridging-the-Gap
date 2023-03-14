@@ -16,8 +16,9 @@ const University = ({ setNavbarTitle, setCurrentCourse, setCurrentStats }) => {
   return (
     <section className="main-container">
       <div className="cards-container">
-        {courses.map((c) => (
+        {courses.map((c, i) => (
           <CourseCard
+            key={i}
             course={c}
             name={c.name}
             code={c.code}

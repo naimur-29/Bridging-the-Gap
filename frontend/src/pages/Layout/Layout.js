@@ -12,6 +12,8 @@ const Layout = ({
   isDarkModeEnabled,
   setIsDarkModeEnabled,
   navbarTitle,
+  setVisitorIdentity,
+  setIsRegistered,
 }) => {
   useEffect(() => {
     setIsDarkModeEnabled(window.localStorage?.getItem("dark-mode") === "true");
@@ -29,7 +31,10 @@ const Layout = ({
           navbarTitle={navbarTitle}
         />
       ) : (
-        <HomeNavbar />
+        <HomeNavbar
+          setVisitorIdentity={setVisitorIdentity}
+          setIsRegistered={setIsRegistered}
+        />
       )}
 
       <Outlet />

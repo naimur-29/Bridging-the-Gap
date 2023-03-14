@@ -1,26 +1,49 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./Home.css";
 
 // importing local components:
 import LandingInfo from "./components/LandingInfo/LandingInfo";
 import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 
-const Home = () => {
-  const [visitorIdentity, setVisitorIdentity] = useState("");
+const Home = ({
+  visitorIdentity,
+  setVisitorIdentity,
+  isRegistered,
+  setIsRegistered,
+}) => {
+  const navigate = useNavigate();
 
   // set isStudent state to default(0):
   useEffect(() => {
-    setVisitorIdentity("");
-  }, []);
+    let loggedIn = window.localStorage.getItem("loggedIn");
+    let vId = window.localStorage.getItem("visitorIdentity");
+
+    if (loggedIn === "true") {
+      navigate(`dashboard/${vId}`);
+    } else {
+      setVisitorIdentity("");
+    }
+  }, [setVisitorIdentity, navigate]);
 
   return (
     <div className="hero min-h-screen">
       {visitorIdentity ? (
-        <Login
-          visitorIdentity={visitorIdentity}
-          setVisitorIdentity={setVisitorIdentity}
-        />
+        isRegistered ? (
+          <Login
+            visitorIdentity={visitorIdentity}
+            setVisitorIdentity={setVisitorIdentity}
+            setIsRegistered={setIsRegistered}
+          />
+        ) : (
+          <Register
+            visitorIdentity={visitorIdentity}
+            setVisitorIdentity={setVisitorIdentity}
+            setIsRegistered={setIsRegistered}
+          />
+        )
       ) : (
         <LandingInfo setIsStudent={setVisitorIdentity} />
       )}

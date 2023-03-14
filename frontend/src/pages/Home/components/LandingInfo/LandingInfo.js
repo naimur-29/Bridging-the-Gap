@@ -17,9 +17,9 @@ const LandingInfo = ({ setIsStudent }) => {
           <div className="btn-container flex-col mx-5 lg:flex-row">
             <button
               className="btn btn-primary w-full mb-3 text-xl lg:w-[30%] mr-3"
-              onClick={() => setIsStudent("student")}
+              onClick={() => setIsStudent("student/faculty")}
             >
-              Student
+              Student/Faculty
             </button>
 
             <button

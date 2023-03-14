@@ -14,12 +14,15 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
-app.use(
-  cors({
-    origin: ["http://127.0.0.1:3000/", "http://localhost:3000/"],
-    methods: "*",
-  })
-);
+
+// cors:
+app.options("*", cors());
+
+const corsOptions = {
+  origin: "*",
+};
+
+app.use(cors(corsOptions));
 
 mongoose
   .connect(process.env.MONGODB_URI, {

@@ -26,7 +26,7 @@ module.exports.createCourse = async (req, res) => {
   if (isUniversityValid) {
     CourseModel.create({ name, code })
       .then((data) => {
-        courses = [...courses, data?._id];
+        courses = [...courses, data];
         const pkg = { courses };
 
         if (data) {
