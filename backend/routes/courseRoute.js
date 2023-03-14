@@ -1,11 +1,10 @@
 const { Router } = require("express");
 const {
-  createUser,
-  updateUserById,
-  getUserById,
-  deleteUserById,
-  userAuth,
-} = require("../controllers/userController");
+  createCourse,
+  updateCourseById,
+  getCourseById,
+  deleteCourseById,
+} = require("../controllers/courseController");
 
 const router = Router();
 
@@ -13,10 +12,9 @@ router.get("/course", (req, res) => {
   res.json({ message: "COURSE ROUTE" });
 });
 
-router.post("/user/new", createUser);
-router.post("/user/update", updateUserById);
-router.post("/user/get", getUserById);
-router.post("/user/delete", deleteUserById);
-router.post("/user/auth", userAuth);
+router.post("/course/new", createCourse);
+router.post("/course/update", updateCourseById);
+router.post("/course/get", getCourseById);
+router.post("/course/delete", deleteCourseById);
 
 module.exports = router;

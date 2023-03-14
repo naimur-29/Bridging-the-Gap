@@ -4,6 +4,7 @@ const cors = require("cors");
 
 const userRoute = require("./routes/userRoute");
 const universityRoute = require("./routes/universityRoute");
+const courseRoute = require("./routes/courseRoute");
 
 require("dotenv").config();
 
@@ -26,6 +27,6 @@ mongoose
   .then(() => console.log(`connected to MongoDB`))
   .catch((err) => console.error(err));
 
-app.use(userRoute, universityRoute);
+app.use(userRoute, universityRoute, courseRoute);
 
 app.listen(PORT, () => console.log(`listening on port: ${PORT}`));
